@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  overflow: hidden;
+}
+/* CSS Bagian Header */
+header {
+  display: flex;
+  justify-content: flex-start;
+  height: 110px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.head-logo img {
+  width: auto;
+  margin-left: 110px;
+  line-height: 50px;
+  margin-right: 30px;
+}
+
+.head-list li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 30px 10px 0;
+}
+
+.head-list a {
+  text-decoration: none;
+  color: #616161;
+  font-size: 16px;
+}
+
+.head-list a:hover {
+  color: #F97F51;
+  padding-bottom: 41px;
+  border-bottom: 6px solid #F97F51;
+}
+
+header .menu-icon {
+  display: none;
+  font-size: 25px;
+  color: #616161;
+}
+/* End of CSS Header */
+
+/* CSS Bagian Main */
+
+.hero {
+  height: 530px;
+  background-image: url(./src/imghead/bg-book.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero h1 {
+  width: 50%;
+  color: #fff;
+}
+
+blockquote:before {
+  content: "“";
+}
+
+blockquote:after {
+  content: "”";
+}
+
+/* End of CSS Main */
+
+.best-seller {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.best-title h2 {
+  font-size: 40px;
+}
+
+.product {
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.product img {
+  margin: 0 10px 10px 10px;
+  width: 250px;
+  height: 350px;
+  border-radius: 30px;
+  transition: 0.5s;
+  border: 1px solid #F97F51;
+  cursor: pointer;
+}
+
+.product img:hover {
+  transform: translate(15px);
+  transform: scale(1.1);
+}
+
+/* section Best-seller */
+#book-section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.konten {
+  text-align: center;
+}
+.konten h2 {
+  font-size: 20px;
+}
+
+.konten p {
+  font-size: 18px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: 0 80px 80px 0px;
+  width: 100%;
+}
+
+.grid-child {
+  margin: 0 10px;
+}
+
+.grid-child img {
+  width: 250px;
+  height: 350px;
+  border-radius: 30px;
+  transition: 0.5s;
+  border: 1px solid #F97F51;
+  cursor: pointer;
+}
+
+.grid-child img:hover {
+  transform: translate(15px);
+  transform: scale(1.1);
+}
+/* End of section Best-seller */
+
+/* Formulir CSS */
+#contact-form {
+  height: 200px;
+  background-image: url(./src/books/form0.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.section-title h3 {
+  font-size: 36px;
+  color: white;
+  padding-top: 20px;
+  font-weight: Bold;
+}
+
+.section-title h5 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-name {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border: 2.5px solid #dfe6e9;
+  margin: 0 10px;
+}
+
+.contact-submit {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #F97F51;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s
+}
+
+.contact-submit:hover {
+  background-color: #FEA47F;
+  color: white;
+}
+
+
+/* Start Footer */
+footer {
+  height: 250px;
+  color: #b3aeb5;
+  background-color: #eee;
+}
+.footer-aset {
+  max-width: 1170px;
+  border-top: 1px solid #b3aeb5;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  float: left;
+}
+.footer-logo img {
+  padding: 40px 0 0 80px;
+}
+.footer-logo p {
+  padding-left: 85px;
+  font-size: 15px;
+}
+.footers {
+  padding-right: 80px;
+}
+.footer-list {
+  float: right;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #b3aeb5;
+}
+.footer-list a:hover {
+  color: #F97F51;
+}
+.footer-list p {
+  font-size: 24px;
+  padding: 20px 0 0 40px;
+  font-weight: bold;
+}
+.footer-list li {
+  font-size: 16px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.social-media {
+  padding-left: 85px;
+}
+.social-media a {
+  padding-right: 10px;
+  color: #b3aeb5;
+}
+.social-media a:hover {
+  color: #F97F51;
+}
+
+.clear {
+  clear: left;
+}
+
+
+
+/* Responsive */
+@media (max-width: 1000px) {
+  header {
+    justify-content: space-around;
+  }
+  .head-logo img {
+    margin-left: 50px;
+  }
+
+  .head-list a {
+    font-size: 14px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    height: 400px;
+  }
+
+  .footer-aset {
+    width: 50%;
+  }
+
+  .section-title h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .section-title h5 {
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+  .contact-name, .contact-submit {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 9px;
+  }
+  .contact-name {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .contact-submit {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+}
+
+@media (max-width: 670px) {
+  header {
+    justify-content: space-around;
+  }
+  .head-list {
+    display: none;
+  }
+
+  header .menu-icon {
+    display: block;
+  }
+
+  .hero h1 {
+    text-align: center;
+    width: 100%;
+    text-shadow: 3px 2px #000000;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    height: 400px;
+  }
+
+  .footer-aset {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-form {
+    height: 100px;
+    }
+}
